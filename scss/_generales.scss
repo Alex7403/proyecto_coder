@@ -1,0 +1,71 @@
+
+#fondo{
+  width:155.5vh;
+  border-radius: 20% 0 20% 0;
+  top: 20%;
+}
+
+.contenedor { 
+  margin: auto;
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 40%;
+  width: auto;
+
+}
+
+
+#perros{
+display: inline-flex;
+height: 50%;
+padding: 15px
+}
+
+.texto {
+	text-align: center;
+  font-size: 2vh;
+	width:30%;
+  position: absolute;
+  top: 22vh;
+  left: 25vh;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.imagenes{
+  height:250px;
+  width: auto;
+}
+
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+
+}
+
+li{
+  display: inline;
+}
+
+.imagenes {
+  transition: transform 1.5s
+}
+.imagenes:hover{
+  transform: scale(1.3);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h1{
+  text-align:center
+}

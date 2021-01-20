@@ -1,0 +1,5 @@
+header nav{background-color:#f1f1f1;font-size:1.1rem}header span .navbar-brand mb-0 h1{font-size:3rem;text-align:center}nav ul li{list-style:none;font-size:3vh;display:inline-block;position:relative;right:5vh;text-indent:5vh;margin-top:1%}.navbar-light .navbar-nav .nav-link{color:#c1a1d3}.navbar-light .navbar-nav .nav-link:hover{color:#344059}#fondo{width:155.5vh;border-radius:20% 0 20% 0;top:20%}
+#perros{display:inline-flex;height:50%;padding:15px}.texto{text-align:center;font-size:2vh;width:30%;position:absolute;top:22vh;left:25vh;font-family:'Roboto', sans-serif}.imagenes{height:15rem; transition:transform 1.5s}ul{list-style-type:none;overflow:hidden}li{display:inline}.imagenes:hover{transform:scale(1.1)} /*cambié el scale(1.3) por (1.1)*/
+footer{background-color:#c1a1d3; text-align:center; width: 100%;} footer a{ color: #344059;} footer a:hover{color: white; text-decoration: none;} /*agregué y modifiqué algunas de las propiedades que estaban*/
+h2{color: #c1a1d3;} /*agregué*/
+.btn {background-color: #c1a1d3; color: #344059; width: 100%;} /*agregué*/
