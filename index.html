@@ -3,17 +3,21 @@
 <html>
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/estilosSCSS.css">
+	<link rel="stylesheet" href="css/estilo.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Pichichos | Quiénes somos</title>
+	<title>Pichichos | Quienes somos</title>
 </head>
 <body>
 
-  <header class="mb-5"> <!--Agregué mb-5 y puse un par de tildes en quién y misión-->
+
+<section id='mobile'>
+ <div class='container' style='display: grid ; background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(239,235,232,1) 0%, rgba(238,237,233,1) 100%);height: 100vh; min-width: 100vw ;grid-template-rows:auto 1fr 3fr'>
+    <header class="mb-5"> 
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
         <img src="imagenes/logo.png" height="35" class="d-inline-block align-top" alt="" >
@@ -41,21 +45,86 @@
     	</ul>
       </div>
     </nav>
+
   </header>
-	<div class='pt-4 text-center'>
-    <img id='fondo' src="imagenes/quienes-somos.jpeg" width="100%">
-		<div class='texto pt-5 mt-md-5 ml-md-5'>
-    <h1>Quéenes somos</h1>
-		<p style="font-family: 'Roboto', sans-serif; font-size: 1rem;">
+
+    <div class= 'd1' style="text-align: center; position: relative; top:20%">
+    	<h1>Quienes somos</h1>
+    		<p style="font-family: 'Roboto', sans-serif; font-size: 80%">
     Somos una ONG que ama a los perros, creemos en su amor y en su amistad plena.
       <br>
     Es por eso que nuestro objetivo es servir de intermediarios para que la gente pueda realizar una adopcion responsable o ayudarlos a buscarlos en caso de que se hayan extraviado.</p>
-    <a href="http://facebook.com"><img src="imagenes/facebook.png" style='height: 30px'></a>
+       <a href="http://facebook.com"><img src="imagenes/facebook.png" style='height: 30px'></a>
     <a href="http://instagram.com"><img src="imagenes/instagram.png" style='height: 30px'></a>
-    </div>
+    <br>
+    	</div>
+    <div class= 'd2' style='position: relative; text-align: center'>
+    	<img src="imagenes/portadapequenia.png" style="max-width: 90%; max-height: 85%;position: absolute;bottom:0;right: 0">
+
+    	</div>
   </div>
-  <footer><a href="paginas/contacto.html">¿Perdiste o tenes un perro en adopcion? Hace click aca y rellena el formulario</a></footer> <!--Agregué el footer en todos los html; siempre debe estar en todos los html, al igual que el header. Además le saqué la etiqueta p que estaba antes-->
-  
+</section>
+
+
+<section id="desktop" style="">
+   <div class='containerDesktop' style='display:grid;height: 90vh;
+   min-width: 100vw ;grid-gap: 0px;padding: 0;margin: 0 '>
+    <header class="mb-5"> 
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+        <img src="imagenes/logo.png" height="35" class="d-inline-block align-top" alt="" >
+         <span class="navbar-brand mb-0 h1">Pichichos</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Quienes somos </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="paginas/mision.html">Nuestra mision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="paginas/perros_perdidos.html">Perdidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="paginas/perros_adopcion.html">Adopta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="paginas/contacto.html">Contacto</a>
+          </li>
+    	</ul>
+      </div>
+    </nav>
+
+  </header>
+  <div id='fondo' style="background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(239,235,232,1) 0%, rgba(238,237,233,1) 100%);width: 80vw;height: 110%;margin-left: 10%;margin-top: 0">
+	  <div style="display: grid;grid-template-columns: 1fr 1fr;position:relative;top: 10%;">
+	  		<div style="height: 70%;position: relative;top:15%;text-align: center;left:10%">
+			    <h1>Quienes somos</h1>
+					<p style="font-family: 'Roboto', sans-serif; font-size: 0.8rem; ">
+			    Somos una ONG que ama a los perros, creemos en su amor y en su amistad plena.
+			      <br>
+			    Es por eso que nuestro objetivo es servir de intermediarios para que la gente pueda realizar una adopcion responsable o ayudarlos a buscarlos en caso de que se hayan extraviado.</p>
+			    <a href="http://facebook.com"><img src="imagenes/facebook.png" style='height: 30px'></a>
+			    <a href="http://instagram.com"><img src="imagenes/instagram.png" style='height: 30px'></a>
+		    </div>
+			<div style="position: relative;right:0%;bottom:0%;height: 80vh;">
+		    <!--<img id='fondo' src="imagenes/quienes-somos.jpeg" style="height: 90%;    position: absolute;
+		    left: 50%;
+		    transform: translate(-50%, 0);top:7%;" >-->
+		    	<img src="imagenes/portada.png" style="position:relative;bottom:10%;left:1.2%;height:110%;border-radius: 0 0% 25% 0">
+			</div>
+	  </div>
+
+	 
+	</div>
+</section>
+
+	 <footer style="position: fixed;bottom: 0;width: 100%"><a href="paginas/contacto.html">¿Perdiste o tenes un perro en adopcion? Hace click aqui y rellena el formulario</a></footer>
+</div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
