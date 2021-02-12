@@ -13,7 +13,9 @@ footer a{ color: #344059;}
 footer a:hover{color: white; text-decoration: none;} /*agregué y modifiqué algunas de las propiedades que estaban*/
 h2{color: #c1a1d3;} /*agregué*/
 .btn {background-color: #c1a1d3; color: #344059; width: 100%;} /*agregué*/
-
+#contacto:hover{
+	color:white;
+}
 @media only screen and (min-width:800px ){
 #mobile{visibility: hidden !important;
 	display: none !important;
