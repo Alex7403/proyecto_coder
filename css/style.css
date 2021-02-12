@@ -16,7 +16,7 @@ h2{color: #c1a1d3;} /*agregué*/
 #contacto{
 }
 
-contacto:hover{
+#contacto:hover{
 	color:white;
 }
 @media only screen and (min-width:800px ){
