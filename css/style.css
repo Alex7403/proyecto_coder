@@ -14,6 +14,7 @@ footer a{ color: #344059;}
 footer a:hover{color: white; text-decoration: none;}
 h2{color: #c1a1d3;} 
 .btn {background-color: #c1a1d3; color: #344059; width: 100%;} 
+#newsletter{position: relative;top:1.5%;}
 
 @media only screen and (min-width:800px ){
 #mobile{visibility: hidden !important;
