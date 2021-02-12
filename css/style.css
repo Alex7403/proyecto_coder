@@ -1,6 +1,7 @@
 header nav{background-color:#f1f1f1;font-size:1.1rem}
 header span .navbar-brand mb-0 h1{font-size:3rem;text-align:center}
 nav ul li{list-style:none;font-size:3vh;display:inline-block;position:relative;right:5vh;text-indent:5vh;margin-top:1%}
+.navbar-light .navbar-nav .nav-link.contacto:hover{color:white;}
 .navbar-light .navbar-nav .nav-link{color:#c1a1d3}
 .navbar-light .navbar-nav .nav-link:hover{color:#344059}
 #fondo{width:155.5vh;border-radius:20% 0 20% 0;top:20%}
@@ -24,7 +25,3 @@ h2{color: #c1a1d3;}
 	display: none !important;
 }
 	}
-
-.contacto:hover{
-   color:white;
-}
