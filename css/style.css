@@ -7,18 +7,13 @@ nav ul li{list-style:none;font-size:3vh;display:inline-block;position:relative;r
 #perros{display:inline-flex;height:50%;padding:15px}
 .texto{text-align:center;font-size:2vh;width:30%;position:absolute;top:22vh;left:25vh;font-family:'Roboto', sans-serif}
 .imagenes{height:15rem; transition:transform 1.5s}ul{list-style-type:none;overflow:hidden}li{display:inline}
-.imagenes:hover{transform:scale(1.1)} /*cambié el scale(1.3) por (1.1)*/
+.imagenes:hover{transform:scale(1.1)} 
 footer{background-color:#c1a1d3; text-align:center; width: 100%;} 
 footer a{ color: #344059;} 
-footer a:hover{color: white; text-decoration: none;} /*agregué y modifiqué algunas de las propiedades que estaban*/
-h2{color: #c1a1d3;} /*agregué*/
-.btn {background-color: #c1a1d3; color: #344059; width: 100%;} /*agregué*/
-#contacto{
-}
+footer a:hover{color: white; text-decoration: none;}
+h2{color: #c1a1d3;} 
+.btn {background-color: #c1a1d3; color: #344059; width: 100%;} 
 
-#contacto:hover{
-	color:white;
-}
 @media only screen and (min-width:800px ){
 #mobile{visibility: hidden !important;
 	display: none !important;
