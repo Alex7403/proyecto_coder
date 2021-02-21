@@ -24,7 +24,7 @@ h2{color: #c1a1d3;}
 #mobile{visibility: hidden !important;
 	display: none !important;
 }
-	#fijarfooter{position:fixed;}
+	#fijarfooter{position:fixed;bottom:0;}
 }
 @media only screen and (max-width:800px ){
 #desktop{visibility: hidden !important;
