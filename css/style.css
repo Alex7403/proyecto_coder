@@ -28,4 +28,6 @@ h2{color: #c1a1d3;}
 #desktop{visibility: hidden !important;
 	display: none !important;
 }
+body{ position:relative
+	}
 	}
