@@ -15,7 +15,7 @@ html body footer div ul li :hover{  transform: scale(1.4);}
 .texto{text-align:center;font-size:2vh;width:30%;position:absolute;top:22vh;left:25vh;font-family:'Roboto', sans-serif}
 .imagenes{height:15rem; transition:transform 1.5s}ul{list-style-type:none;overflow:hidden}li{display:inline}
 .imagenes:hover{transform:scale(1.1)} 
-footer{text-align:center; width: 100%; background-color: black;color:white;width: 100%;}
+footer{text-align:center; bottom:0;left:0;background-color: black;color:white;width: 100%;}
 h2{color: #c1a1d3;} 
 .btn {background-color: #c1a1d3; color: #344059; width: 100%;} 
 #newsletter{position: relative;top:1.5%;}
@@ -25,11 +25,16 @@ h2{color: #c1a1d3;}
 	display: none !important;
 }
 	#fijarfooter{position:fixed;bottom:0;}
+	#fix{position:fixed;}
 }
+
+
 @media only screen and (max-width:800px ){
 #desktop{visibility: hidden !important;
 	display: none !important;
 }
 body{ position:relative;
 	}
+#margen{margin-bottom: 10%;}
+
 	}
